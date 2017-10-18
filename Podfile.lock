@@ -1,0 +1,52 @@
+PODS:
+  - AsyncSwift (2.0.1)
+  - Cartography (1.1.0)
+  - EDSemver (0.4.0)
+  - GCDWebServer (3.4.1):
+    - GCDWebServer/Core (= 3.4.1)
+  - GCDWebServer/Core (3.4.1)
+  - ISO8601DateFormatter (0.8)
+  - JSONSyntaxHighlight (1.0.0)
+  - LetsMove (1.23)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - PeerTalk (0.0.2)
+  - SSZipArchive (2.0.7)
+
+DEPENDENCIES:
+  - AsyncSwift
+  - Cartography (= 1.1.0)
+  - EDSemver
+  - GCDWebServer
+  - ISO8601DateFormatter (~> 0.7)
+  - JSONSyntaxHighlight
+  - LetsMove
+  - Mantle
+  - PeerTalk (from `https://github.com/rsms/peertalk`)
+  - SSZipArchive
+
+EXTERNAL SOURCES:
+  PeerTalk:
+    :git: https://github.com/rsms/peertalk
+
+CHECKOUT OPTIONS:
+  PeerTalk:
+    :commit: 5de384b349a1d51fc148c45f8ce0ac46b9bce39e
+    :git: https://github.com/rsms/peertalk
+
+SPEC CHECKSUMS:
+  AsyncSwift: 632138e42ead868b53c745fcde9bf733ce1527ad
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  EDSemver: 2923ee872701634861fe566ad8a028ed4300989d
+  GCDWebServer: 1db60034fe0e78a4a8524bd6c7cd97cd3c589870
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  JSONSyntaxHighlight: 8685d8ad0259b909dc97a829fdfbefbec363f449
+  LetsMove: aab040c9d4ca98cdf60a9b13f89146a94031f8ce
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  PeerTalk: f5389c286e4d477e59b73dfbf25c5c70a2464761
+  SSZipArchive: 8c197761d66bd33e7f8b5b51ee57dff303971150
+
+PODFILE CHECKSUM: bab33ad15d3a2af1d63194aa8a2223f8d75c2090
+
+COCOAPODS: 1.2.0
